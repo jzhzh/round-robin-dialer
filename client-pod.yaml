@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rr-client
+spec:
+  containers:
+    - name: rr-client
+      image: roundrobin-client:latest
+      imagePullPolicy: Never
+      env:
+        - name: TARGET_DNS
+          value: web.default.svc.cluster.local
