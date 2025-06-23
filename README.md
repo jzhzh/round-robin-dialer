@@ -82,7 +82,7 @@ docker run -e TARGET_DNS=your-target-hostname roundrobin-dialer
 
 ## License
 
-MIT License
+[MIT License](LICENSE).
 
 ## Contributing
 
